@@ -1,8 +1,6 @@
 <ion-view title="Campaigns">
   <ion-content>
-    <ion-list>
-      <ion-item ng-repeat="campaign in campaigns" class="item item-icon-right">
-        <span >{{campaign.title}}</span>
-      </ion-item>
-    </ion-list>
+    <ul class="mainList">
+    	<li class="campaignItem" ng-repeat="campaign in campaigns" on-swipe-left="cardLeft()" on-swipe-right="cardRight()"> <span >{{campaign.title}}</span></li>
+    </ul>	
 </ion-view>

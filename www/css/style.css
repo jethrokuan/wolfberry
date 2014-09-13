@@ -1,1 +1,12 @@
 /* Empty. Add your own CSS if you like */
+.mainList{
+	white-space: nowrap;
+	overflow-x:auto; 
+}
+.campaignItem{
+	display: inline-block;
+	width: 100%;
+	-webkit-transition:0.5s linear all;
+	transition:0.5s linear all;
+
+}
